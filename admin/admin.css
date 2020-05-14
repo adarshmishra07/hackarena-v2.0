@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    color: black;
+    background-color: white;
+    width: 100%;
+    min-height: 100vh;
+}
+
+nav{
+    height: 60px;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+
+ul>li{
+    padding: 12px 20px;
+}
+
+ul>li>a{
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+}
+.container{
+    margin: 0 auto;
+    text-align: center;
+}
+.napplied,.napproved{
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    padding: 20px;
+}
+.no{
+    text-align: center;
+    font-size: 30px;   
+    margin: 20px auto;
+}
+.text{
+    text-align: center;
+    font-size: 22px;
+    color: coral;
+}

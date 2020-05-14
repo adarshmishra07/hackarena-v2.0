@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+*{
+    padding: 0;margin: 0;
+}
+html{
+    height: 100vh;
+}
+body{
+    margin: 0 auto;
+    width: auto;
+    height: 100vh;
+     background: #111117;
+    box-shadow: 0 0 300px rgba(0, 255, 255, 0.2) inset;
+    animation-name: glowing;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;   
+    font-family: 'Montserrat', sans-serif;
+}
+@keyframes glowing {
+    from {
+        box-shadow: 0 0 300px rgba(0, 255, 255, 0.2) inset;
+    }
+
+    to {
+        box-shadow: 0 0 320px rgba(0, 255, 255, 0.5) inset;
+    }
+}
+.container{
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.32);
+    padding:2em;
+    border-radius: 1.5em;
+    box-shadow: 5px 5px 8px 5px rgba(0, 255, 255, 0.54),-2px -4px 8px 5px aqua;
+}
+.form{
+    margin: 40px auto;
+}
+
+h2{
+    font-size: 40px;
+    color: aqua;
+    margin: 10px auto;
+    text-align: center;
+}
+
+input,button{
+    width: 250px;
+    margin: 20px auto;
+    padding: 10px;
+    border: 1px solid #aaa;
+    outline: 0;
+    background: #eee;
+    border-radius: 25px;
+    font-size: 16px;
+    color: black;
+    letter-spacing: -0.2px;
+    text-shadow: 1px 1px 0 white;
+    box-shadow:  inset 2px 2px 5px #ccc, inset -5px -5px 10px white;
+}
+input::placeholder{
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+button{
+    display: block;
+    margin: 10px auto;
+    width: 270px;
+    color: black;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+button:hover{
+    cursor: pointer;
+    box-shadow:-2px -2px 5px aqua, 2px 2px 5px aqua;
+}
+.text{
+    padding: 10px;
+    color: aqua;
+}
+.text a{
+    color: red;
+    text-decoration: none;
+}
+.or{
+    color: aqua;
+    margin: 35px auto;
+    text-align: center;
+}
+.google-btn{
+    text-align: center;
+    margin: 0px auto;
+}
+
+.google{
+    width: 200px;
+    margin: 10px;
+}
+
+footer{
+    position: absolute;
+    bottom: 40px;
+    display: block;
+    width: 100%;    
+    text-align: center;
+}
+
+
+.err{
+    margin: 0 auto;
+    color: red;
+    text-align: center;
+}
